@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.ediphi.com/
+platform: Vanta
+certifications: []
+certifications_note: Ediphi operates a Vanta-hosted Trust Center at trust.ediphi.com.
+  The certification list (e.g. SOC 2) is rendered client-side via JavaScript and could
+  not be enumerated verbatim in this pass; named certifications are intentionally left
+  empty rather than fabricated. No Compliance pointer is emitted until specific
+  certifications are confirmed from the live document.
+evidence:
+- source: https://trust.ediphi.com/
+  keywords:
+  - trust center
+  - vanta
+  content_location: https://assets.vanta.com/static/index-trust-report.54d095bcadce8a8a59b7fc6ae3cfc55d15a7495f.html

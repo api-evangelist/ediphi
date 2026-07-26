@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.ediphi.com
+versioning:
+  scheme: unknown
+  note: No public versioning policy is published; the API (api.ediphi.com) is a private
+    application API without published developer documentation.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation policy or RFC 8594 Sunset/Deprecation header support was found.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.ediphi.com
+status_page_platform: Atlassian Statuspage
+product_releases: https://help.ediphi.com/
+deprecated_operations: []

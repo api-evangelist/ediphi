@@ -1,0 +1,26 @@
+# Ediphi
+
+> Ediphi is a cloud-native preconstruction platform for commercial construction contractors that unifies estimating, cost modeling, GCs & GRs tracking, bid-package contracting, and a shared cloud unit-price catalog in one real-time collaborative workspace. Its "Last Mile" module provides API-driven automation for Excel integration and reporting. Ediphi runs a private application API at api.ediphi.com; there is no public developer portal or published API specification at this time.
+
+## Product
+- [Ediphi](https://ediphi.com): Preconstruction platform — estimating, cost modeling, GCs & GRs, contracting, unit-price catalog, Last Mile automation
+- [Application login](https://ediphi.com/login): Customer application sign-in
+- [Request a demo](https://ediphi.com/get-demo): Product demo request
+
+## Docs & Support
+- [Help Center](https://help.ediphi.com/): Support articles, webinars, Ediphi Academy, product releases
+- [Blog](https://ediphi.com/blog): Preconstruction and estimating content
+
+## Operations
+- [Status](https://status.ediphi.com): Atlassian Statuspage system status
+- [Trust Center](https://trust.ediphi.com/): Vanta-hosted security & compliance trust center
+
+## API
+- API host: https://api.ediphi.com (private application API; no public OpenAPI/Swagger specification or developer documentation published)
+
+## Legal
+- [Terms & Conditions](https://ediphi.com/terms-and-conditions)
+
+## Notes
+- Backed by Norwest Venture Partners and Techstars.
+- Added to the API Evangelist network as a construction-technology (preconstruction) company profile.

@@ -1,9 +1,27 @@
 aid: ediphi
 name: Ediphi
-description: 'Ediphi is a company surfaced as a portfolio company of norwest-venture-partners, techstars
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Ediphi is a cloud-native preconstruction platform for commercial construction
+  contractors that unifies estimating, cost modeling, general conditions and general
+  requirements (GCs & GRs) tracking, bid-package contracting, and a shared cloud unit-price
+  catalog in one real-time collaborative workspace. Founded by Dustin DeVan (founder of
+  BuildingConnected, acquired by Autodesk), it is used by ENR Top 400 general contractors
+  including Hensel Phelps, Suffolk Construction, and DPR Construction. Its "Last Mile"
+  module provides API-driven automation for Excel integration and reporting. Ediphi runs
+  a private application API at api.ediphi.com; as of this profile there is no public
+  developer portal or published API specification.'
 url: https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67056bab57657a8d7633ed62/67c9d6d6fe2d2f35fd93c596_OG0image%20(1).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,16 +31,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
-apis: []
+- Construction
+- Preconstruction
+- Cost Estimating
+- Construction Technology
+- Estimating
+- Cost Management
+- SaaS
+apis:
+- name: Ediphi API
+  description: 'Private application API powering the Ediphi preconstruction platform and
+    its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger
+    specification or developer documentation is published; access is through the customer
+    application. The host is live and returns an identity banner.'
+  humanURL: https://help.ediphi.com/
+  baseURL: https://api.ediphi.com
+  tags:
+  - Construction
+  - Preconstruction
+  - Estimating
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ediphi-domain-security.yml
 - type: Website
   url: https://ediphi.com
+- type: Support
+  url: https://help.ediphi.com/
+- type: Blog
+  url: https://ediphi.com/blog
+- type: Login
+  url: https://ediphi.com/login
+- type: SignUp
+  url: https://ediphi.com/get-demo
+- type: TermsOfService
+  url: https://ediphi.com/terms-and-conditions
+- type: StatusPage
+  url: https://status.ediphi.com
+- type: TrustCenter
+  url: https://trust.ediphi.com
+- type: Lifecycle
+  url: lifecycle/ediphi-lifecycle.yml
+- type: LLMsTxt
+  url: llms/ediphi-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
